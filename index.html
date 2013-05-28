@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>poop</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" media="all" href="theme/css/default.css">
+	<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+    <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+	<script src= "jquery1.7.1.min.js" type="text/javascript"></script>
+	<script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+	<script src= "jquery1.7.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$.get("handler.php", function(data) {
+			console.log("Hello world!");
+			$("body").html(data);// content here
+		});
+
+		});
+	</script>
+</head>
+<body>
+	Slides here!
+</body>
+</html>
