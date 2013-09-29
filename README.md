@@ -1,4 +1,4 @@
-io-2012-slides
+GoogleI/O-2012-slides
 ==============
 
 Markdown slide show builder. Currently I have used the Markdown template for google IO 2012 slide deck.
